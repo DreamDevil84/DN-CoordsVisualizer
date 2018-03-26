@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Coords Visualizer</title>
+</head>
+
+<body>
+    <div>
+        <div id="infoText">InfoText</div>
+        <div>
+            <button onclick="getData('coords.json')">Get Coords</button>
+            <button onclick="getData('coords_wHorizon.json')">Get Coords With Horizontals</button>
+            <button onclick="animateControl()">Animate</button>
+        </div>
+    </div>
+    <br>
+    <canvas id="myCanvas"></canvas>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
